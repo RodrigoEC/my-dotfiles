@@ -14,7 +14,11 @@ Plug 'ap/vim-buftabline'
 Plug 'tpope/vim-vinegar'
 Plug 'panickbr/neovim-ranger'
 
-Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
+" Use release branch (recommend)
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
+
+" Or build from source code by using yarn: https://yarnpkg.com
+Plug 'neoclide/coc.nvim', {'branch': 'release', 'do': 'yarn install --frozen-lockfile'}
 call plug#end()
 
 let g:sonokai_style = 'maia'
@@ -67,3 +71,5 @@ omap <leader><tab> <plug>(fzf-maps-o)
 
 nnoremap <c-p> :Files<cr>
 nnoremap <leader>f :Ag<cr>
+
+source $VIM_CONFIG/coc.vim

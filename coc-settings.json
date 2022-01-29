@@ -1,0 +1,18 @@
+{
+  "coc.preferences.formatOnSaveFiletypes": ["css", "markdown", "js", "jsx"],
+	"languageserver": {
+		"terraform": {
+			"command": "terraform-ls",
+			"args": ["serve"],
+			"filetypes": [
+				"terraform",
+				"tf"
+			],
+			"initializationOptions": {},
+			"settings": {}
+		}
+	},
+	"markdownlint.config": {
+		"MD013": false
+	}
+}
