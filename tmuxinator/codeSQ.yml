@@ -1,0 +1,15 @@
+# /home/rodrigo/.config/tmuxinator/codeSQ.yml
+
+name: codeSQ
+root: ~/cc/codeSQ/
+
+startup_window: editor
+startup_pane: 1
+
+windows:
+  - nvim: nvim frontend
+  - background:
+      layout: main-vertical
+      panes:
+        - docker-compose up --build
+        - cd frontend ; git status
