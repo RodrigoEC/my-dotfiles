@@ -1,7 +1,7 @@
 # /home/rodrigo/.config/tmuxinator/codeSQ.yml
 
 name: codeSQ
-root: ~/cc/codeSQ/
+root: ~/cc/codesq/
 
 startup_window: editor
 startup_pane: 1
