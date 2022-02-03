@@ -11,13 +11,13 @@ source $ZSH/oh-my-zsh.sh
 
 export VIM_CONFIG=$HOME/.config/nvim/config
 
-alias hoco='cd ~/cc/meusProjetos/HoCo'
+alias hoco='cd ~/cc/projetos/HoCo'
 alias frontHoco='hoco ; cd frontend'
 alias backHoco='hoco ; cd backend'
 
 alias codeSQ='cd ~/cc/codesq'
 
-alias gitToken='echo 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'
+alias gitToken='echo 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'
 
 alias ihuu='echo IHUUUUUUUUUUUU'
 
