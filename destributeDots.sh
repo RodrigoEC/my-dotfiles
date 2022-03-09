@@ -8,25 +8,15 @@ update_zsh() {
 
 update_nvim() {
 	# Update nvim
-	sudo rm -rf autoload
 	cp -r autoload ~/.config/nvim/autoload
-
-	sudo rm -rf coc-settings.json
 	cp -r coc-settings.json ~/.config/nvim/coc-settings.json
-
-	sudo rm -rf config
 	cp -r config ~/.config/nvim/config
-
-	sudo rm -rf init.vim
 	cp -r init.vim ~/.config/nvim/init.vim
 }
 
 update_tmux() {
 	# Update TMUX and Tmuxinator
-	sudo rm -rf tmuxinator
 	cp -r tmuxinator ~/.config/tmuxinator
-
-	sudo rm -rf .tmux.conf
 	cp -r .tmux.conf ~/.tmux.conf
 }
 
